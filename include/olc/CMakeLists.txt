@@ -1,0 +1,2 @@
+add_library(olcPixelGameEngine INTERFACE olcPixelGameEngine.h)
+target_include_directories(olcPixelGameEngine INTERFACE .)
