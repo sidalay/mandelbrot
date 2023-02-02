@@ -3,6 +3,7 @@
 *.exe
 build
 release
+release-gcc
 cmake-build-debug
 cmake-build-release
 cmake-build
