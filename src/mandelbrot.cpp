@@ -24,12 +24,7 @@ public:
 public:
 	bool OnUserCreate() override
 	{
-		//pFractal = new int[ScreenWidth() * ScreenHeight()]{ 0 };
-
-		// Using Vector extensions, align memory (not as necessary as it used to be)
-		// MS Specific - see std::aligned_alloc for others
 		pFractal = (int*)_aligned_malloc(size_t(ScreenWidth()) * size_t(ScreenHeight()) * sizeof(int), 64);
-
 		return true;
 	}
 
