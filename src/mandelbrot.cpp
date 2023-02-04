@@ -7,8 +7,6 @@
 #include <cstdlib>
 #include <immintrin.h>
 
-constexpr int nMaxThreads = 32;
-
 class olcFractalExplorer : public olc::PixelGameEngine
 {
 public:
